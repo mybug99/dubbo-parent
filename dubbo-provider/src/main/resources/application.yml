@@ -1,0 +1,11 @@
+dubbo:
+  application:
+    name: dubbo-provider
+  protocol:
+    port: 20880
+  registry:
+    address: nacos://127.0.0.1:8848
+  config-center:
+    address: nacos://127.0.0.1:8848
+  metadata-report:
+    address: nacos://127.0.0.1:8848
